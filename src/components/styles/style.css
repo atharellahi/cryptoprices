@@ -1,0 +1,80 @@
+div#root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div#app {
+    padding: 2%;
+width: 30%;
+background-color: rgb(90, 156, 231);
+border-radius: 2rem;
+box-shadow: 0 10px 20px 10px rgba(0, 0, 0, .6);
+}
+
+div#app:hover {
+    
+box-shadow: 0 10px 20px 10px rgba(52, 65, 53, 0.6);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div#price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 95%;
+    height: 20px;
+}
+
+button {
+    width: 75%;
+    margin: 3% 0%;
+    border-radius: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, .6);
+}
+
+label {
+    margin: 3px;
+    margin-bottom: 20px;
+    background-color: rgb(42, 44, 185);
+    
+}
+
+h1 {
+    margin: 3px;
+}
+
+label {
+    border: 3px solid rgb(58, 75, 78);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    height: 25px;
+}
+
+body {
+    background-image: url(https://www.paymentsjournal.com/wp-content/uploads/2022/04/1661-scaled-e1649434277532.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
